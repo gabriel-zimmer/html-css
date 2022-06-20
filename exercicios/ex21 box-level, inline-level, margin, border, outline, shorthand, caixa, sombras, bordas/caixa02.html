@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de caixas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(122, 80, 80);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: yellowgreen;
+            padding: 10px;
+            box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 7px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgreen;
+        }
+        
+        article > aside {
+            background-color: blueviolet;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            padding: 16px;
+        }
+
+        ul a{
+            color: black;
+            text-decoration: none;
+        }
+
+        ul a:hover {
+            color: red;
+        }
+
+        #assuntos {
+            background-color: rgb(192, 152, 230);
+            font-weight: bold;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 7px 7px 7px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+        <ul>
+            <li><a href="pag2" target="_blank">Menu</a></li>
+            <li><a href="pag3" target="_blank">Contato</a></li>
+            <li><a href="pag4" target="_blank">Conteudo</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologias, Games</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit minima omnis soluta error architecto, natus qui maxime eius commodi? Harum eius quasi iure repellat cupiditate voluptas totam at nostrum?</p>
+                <aside>Artigo escrito por autor desconhecido</aside>
+            </article>
+        </section>
+        <section id="">
+
+        </section>
+    </main>
+    <footer>
+        <p>Aprendendo pelo Curso em Video</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
