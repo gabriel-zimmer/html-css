@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+abbr {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: black;
+    padding: 1px;
+}
+
+body {
+    background-image: linear-gradient(aqua, rgba(0, 0, 255, 0.479));
+}
+
+header {
+    background-color: rgb(39, 39, 182);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: -10px;
+}
+
+header p {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav {
+    padding: 10px;
+    margin: -10px;
+    background-color: blue;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: red;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: -25px;
+    padding: 0px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+main aside {
+    background-color: aquamarine;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    text-indent: 15px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+aside h3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.712),aquamarine);
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    min-width: 500px;
+    text-align: center;
+}
+
+ul p {
+    text-align: justify;
+    text-indent: 15px;
+    width: 300px;
+}
+
+footer {
+    font-size: 1.2em;
+    text-align: center;
+}
