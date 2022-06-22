@@ -4,14 +4,12 @@
 }
 
 div.video1 {
-    margin: 30px -10px 15px -10px;
+    margin: 35px -10px 20px -10px;
     
 
     padding-bottom: 50%;
 
     position: relative;
-
-    background-color: blueviolet;
 }
 
 div.video1 > iframe {
@@ -24,13 +22,11 @@ div.video1 > iframe {
 }
 
 div.video2 {
-    margin: 60px -10px 60px -10px;
+    margin: 65px -10px 65px -10px;
 
     position: relative;
 
     padding-bottom: 50%;
-
-    background-color: maroon;
 }
 
 div.video2 > iframe {
@@ -44,7 +40,7 @@ div.video2 > iframe {
 
 div p {
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 9px;
     position: absolute;
     left: 2%;
     top: 100%;
