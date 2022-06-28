@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    text-indent: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
+    line-height: 1.5em;
+}
+
+/*--- START HOVER ---*/
+
+/*--- FAROL ---*/
+.img0 {
+    background-image: url(img/farolpt1.png);
+    height: 240px;
+    width: 220px;
+}
+
+.text0 {
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    transition: 0.2s linear;
+    opacity: 0;
+    margin-top: -15px;
+}
+
+.img0:hover .text0 {
+    opacity: 1;
+}
+
+/*--- PAINEL ---*/
+
+.img1 {
+    background-image: url(img/painel.png);
+    height: 240px;
+    width: 220px;
+}
+
+.text1 {
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    transition: 0.2s linear;
+    opacity: 0;
+    margin-top: -15px;
+}
+
+.img1:hover .text1 {
+    opacity: 1;
+}
+
+/*--- SUSPENSÃO ---*/
+
+.img2 {
+    background-image: url(img/suspe.png);
+    height: 240px;
+    width: 220px;
+}
+
+.text2 {
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    transition: 0.2s linear;
+    opacity: 0;
+    margin-top: -15px;
+}
+
+.img2:hover .text2 {
+    opacity: 1;
+}
+
+/*--- ESCAPAMENTO ---*/
+
+.img3 {
+    background-image: url(img/escape.png);
+    height: 240px;
+    width: 220px;
+}
+
+.text3 {
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    transition: 0.2s linear;
+    opacity: 0;
+    margin-top: -15px;
+}
+
+.img3:hover .text3 {
+    opacity: 1;
+}
+
+.todas {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--- END HOVER ---*/
+
+header {
+    background-color: #703A13;
+    padding: 20px;
+    margin: -8px -8px 0px -8px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.9em;
+    color: white;
+}
+
+header p {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 1.1em;
+}
+
+nav {
+    background-color: #704E35;
+    margin: 0px -8px 0px -8px;
+    padding: 7px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 15px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+article {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: -20px;
+    background-color: white;
+}
+
+.imgxj6 {
+    display: flex;
+    justify-content: center;
+}
+
+.hornets {
+    list-style: none;
+    text-align: left;
+}
+
+.hornets p {
+    margin-top: -5px;
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #7e4c28;
+    color: white;
+    margin: 0px -8px -20px -8px;
+}

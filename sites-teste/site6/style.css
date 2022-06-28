@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*----------------- FAROL ----------------*/
+.imagem {
+    background-image: url(img/farolpt1.png);
+    height: 240px;
+    width: 220px;
+}
+
+.texto {
+    height: 240px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.imagem:hover .texto {
+    opacity: 1;
+}
+
+/*----------------- PAINEL ----------------*/
+.imagem1 {
+    background-image: url(img/painel.png);
+    width: 220px;
+    height: 240px;
+
+    position: absolute;
+    left: 13%;
+    top: 21%;
+}
+
+.texto1 {
+    margin-top: -16px;
+    height: 240px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.imagem1:hover .texto1 {
+    opacity: 1;
+}
+
+/*----------------- SUSPENSÃO ----------------*/
+.img2 {
+    background-image: url(img/suspe.png);
+    height: 240px;
+    width: 220px;
+
+    position: absolute;
+    top: 21%;
+    left: 26%;
+}
+
+.text2 {
+    margin-top: -16px;
+    height: 240px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.img2:hover .text2 {
+    opacity: 1;
+}
+
+/*----------------- ESCAPAMENTO ----------------*/
+
+.img3 {
+    background-image: url(img/escape.png);
+    height: 240px;
+    width: 220px;
+
+    position: absolute;
+    top: 21%;
+    left: 39%;
+}
+
+.text3 {
+    margin-top: -16px;
+    height: 240px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.777);
+    opacity: 0;
+    transition: 0.2s linear;
+    
+}
+
+.img3:hover .text3 {
+    opacity: 1;
+}
+
+
+.h3img {
+    position: relative;
+    float: right;
+    top: 92%;
+    left: -70%;
+}
+
+.h3img1 {
+    position: relative;
+    float: right;
+    top: 93%;
+    left: -47%;
+}
+
+.h3img2 {
+    position: relative;
+    float: right;
+    top: 92%;
+    left: -35%;
+}
