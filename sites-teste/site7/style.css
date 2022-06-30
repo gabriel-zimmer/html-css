@@ -24,12 +24,11 @@ p {
 
 /*--- START HOVER ---*/
 
-/*--- FAROL ---*/
-.img0 {
-    background-image: url(img/farolpt1.png);
-    height: 240px;
-    width: 220px;
+.todas {
+    display: inline-block;
 }
+
+/*--- TEXTO ---*/
 
 .text0 {
     height: 240px;
@@ -38,6 +37,14 @@ p {
     transition: 0.2s linear;
     opacity: 0;
     margin-top: -15px;
+}
+
+
+/*--- FAROL ---*/
+.img0 {
+    background-image: url(img/farolpt1.png);
+    height: 240px;
+    width: 220px;
 }
 
 .img0:hover .text0 {
@@ -52,16 +59,7 @@ p {
     width: 220px;
 }
 
-.text1 {
-    height: 240px;
-    background-color: rgba(0, 0, 0, 0.777);
-    color: white;
-    transition: 0.2s linear;
-    opacity: 0;
-    margin-top: -15px;
-}
-
-.img1:hover .text1 {
+.img1:hover .text0 {
     opacity: 1;
 }
 
@@ -73,16 +71,7 @@ p {
     width: 220px;
 }
 
-.text2 {
-    height: 240px;
-    background-color: rgba(0, 0, 0, 0.777);
-    color: white;
-    transition: 0.2s linear;
-    opacity: 0;
-    margin-top: -15px;
-}
-
-.img2:hover .text2 {
+.img2:hover .text0 {
     opacity: 1;
 }
 
@@ -94,22 +83,8 @@ p {
     width: 220px;
 }
 
-.text3 {
-    height: 240px;
-    background-color: rgba(0, 0, 0, 0.777);
-    color: white;
-    transition: 0.2s linear;
-    opacity: 0;
-    margin-top: -15px;
-}
-
-.img3:hover .text3 {
+.img3:hover .text0 {
     opacity: 1;
-}
-
-.todas {
-    display: flex;
-    justify-content: space-around;
 }
 
 /*--- END HOVER ---*/
