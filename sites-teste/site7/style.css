@@ -18,7 +18,7 @@ h3 {
 p {
     text-indent: 30px;
     text-align: justify;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
     line-height: 1.5em;
 }
 
@@ -92,7 +92,7 @@ p {
 header {
     background-color: #703A13;
     padding: 20px;
-    margin: -8px -8px 0px -8px;
+    margin: -10px -8px 0px -8px;
     text-align: center;
 }
 
@@ -142,15 +142,24 @@ article {
     justify-content: center;
 }
 
-.hornets {
+ul { 
     list-style: none;
-    text-align: left;
+}
+
+li > img {
+    width: 50%;
+}
+
+.hornets {
+    text-align: center;
 }
 
 .hornets p {
     margin-top: -5px;
     text-indent: 0px;
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -158,5 +167,11 @@ footer {
     font-size: 1.2em;
     background-color: #7e4c28;
     color: white;
-    margin: 0px -8px -20px -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px 0px -8px 0px;
 }
