@@ -9,20 +9,36 @@
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*SHORTHAND - BACKGROUND
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid darkblue;
             border-radius: 15px;
+        }
+
+        main p {
+            text-indent: 20px;
+            text-align: justify;
+            padding: 0px 3px 0px 3px;
         }
     </style>
 </head>
@@ -33,6 +49,9 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium rerum consequatur vel labore natus! Vitae voluptas non hic voluptate cupiditate itaque ea a blanditiis sunt obcaecati. Porro ratione aliquid possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum corrupti sapiente rem sed quidem dicta reiciendis sunt, voluptas similique blanditiis consequuntur ipsam voluptate voluptatibus mollitia, placeat error, quasi deserunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex consequuntur necessitatibus aut est iusto dolorem non accusantium totam incidunt deleniti eum, dolore eius numquam et cum eos, expedita veniam animi.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium rerum consequatur vel labore natus! Vitae voluptas non hic voluptate cupiditate itaque ea a blanditiis sunt obcaecati. Porro ratione aliquid possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum corrupti sapiente rem sed quidem dicta reiciendis sunt, voluptas similique blanditiis consequuntur ipsam voluptate voluptatibus mollitia, placeat error, quasi deserunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex consequuntur necessitatibus aut est iusto dolorem non accusantium totam incidunt deleniti eum, dolore eius numquam et cum eos, expedita veniam animi.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium rerum consequatur vel labore natus! Vitae voluptas non hic voluptate cupiditate itaque ea a blanditiis sunt obcaecati. Porro ratione aliquid possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum corrupti sapiente rem sed quidem dicta reiciendis sunt, voluptas similique blanditiis consequuntur ipsam voluptate voluptatibus mollitia, placeat error, quasi deserunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex consequuntur necessitatibus aut est iusto dolorem non accusantium totam incidunt deleniti eum, dolore eius numquam et cum eos, expedita veniam animi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus cum sunt ab quam error est iste consequatur enim doloribus? Impedit magnam ad id saepe quasi dicta repellat quae corrupti in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur similique possimus sapiente sint impedit quaerat et in hic perspiciatis animi. In aspernatur dolore sapiente earum, corrupti labore autem porro nesciunt!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium omnis delectus laborum atque magnam deserunt perspiciatis? Illo, debitis quas nobis provident veniam adipisci tenetur commodi perspiciatis odio itaque repudiandae.</p>
     </main>
 </body>
 </html>
